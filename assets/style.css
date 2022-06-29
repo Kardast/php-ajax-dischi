@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #606569;
+    height: 100px;
+    display: flex;
+    align-items: center;
+}
+
+header img {
+    width: 70px;
+    margin-left: 10px;
+}
+
+main{
+    background-color: #1e2d3b;
+    height: calc(100vh - 100px);
+    padding-top: 50px;
+}
+
+.disks-wrapper{
+    margin: 0 auto;
+    width: 70%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.disks-wrapper .disk-card{
+    width: calc(100% / 5 - 40px);
+    text-align: center;
+    color: white;
+    background-color: #2e3a46;
+    padding: 25px;
+    margin: 10px 10px;
+}
+
+.disks-wrapper .disk-card img{
+    width: 100%;
+}
+
+.disks-wrapper .disk-card p {
+    color: gray;
+}

@@ -4,7 +4,7 @@ new Vue ({
         disks: [],
     },
     created(){
-        axios.get('https://localhost/29-06/php-ajax-dischi/milestone2/api.php')
+        axios.get('http://localhost/29-06/php-ajax-dischi/milestone2/api.php')
             .then(response => this.disks = response.data);
     }
 })
